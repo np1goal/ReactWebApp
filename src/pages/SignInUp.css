@@ -1,0 +1,51 @@
+.App {
+    height: 100vh;
+    display: flex;
+    color: white;
+  }
+
+.App__Aside {
+    width: 50%;
+    background-color: white;
+  }
+  
+  .App__Form {
+    width: 50%;
+    background-color: #FEAAAA;
+    padding: 25px 40px;
+    overflow: auto;
+  }
+  
+  .PageSwitcher {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+  }
+  
+  .PageSwitcher__Item {
+    background-color: #432C2C;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: .9em;
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .PageSwitcher__Item--Active {
+    background-color: white;
+    color: #FEAAAA;
+  }
+  
+  .PageSwitcher__Item:first-child {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .PageSwitcher__Item:last-child {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  
